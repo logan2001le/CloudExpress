@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome <%= name %> </p>
+    <%- select_box %>
+    <%- table_string %>
+    <a href="logout">Logout</a>
+  </body>
+  <script>
+    window.setInterval(() => {
+  window.location.reload();
+}, 10000);
+  </script>
+</html>
+
+
